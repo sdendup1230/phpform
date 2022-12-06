@@ -1,0 +1,43 @@
+.container{
+    border-radius: 20px;
+    padding: 20px;
+}
+legend{
+    color: darkgray;
+}
+.form1 input {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 8px 5px;
+    font-style: italic;
+    /* margin-bottom: 20px; */
+}
+input:focus{
+    outline: none !important;
+    border: 2px solid #888;
+    border-radius: 10px;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-betweens;
+    gap: 10px;
+}
+button{
+    border: none;
+    padding: 5px 30px 5px 30px;
+    background: dodgerblue;
+    text-decoration: none;
+    margin-left: 100px;
+      border-radius: 20px;
+      position: absolute;
+      color: #ffffff;
+}
+button:hover{
+    background-color: lightblue;
+    color: #ffffff;
+}
+.output{
+    /* display: none; */
+}
